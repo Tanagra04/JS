@@ -48,3 +48,4 @@ console.log({elementoLibroPrincipio, libros});
 // Eliminar un elemento del array de libros
 let borrarElemento = libros.splice(7);
 console.log({borrarElemento, libros});
+

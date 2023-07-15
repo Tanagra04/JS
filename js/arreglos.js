@@ -33,3 +33,18 @@ console.log(libros[5][3]);
 // muestra el ultimo valor de arreglo
 let ultimovalor = libros[libros.length - 1];
 console.log('El ultimo valor es: ', ultimovalor);
+
+// cuantos valores tiene el array de libros
+console.log('Los valores son: ', libros.length);
+
+// Agregar un nuevo elemento al array de libros
+let nuevoLibro = libros.push('El Principito');
+console.log({nuevoLibro, libros});
+
+// Agregar un nuevo elemento al principio del array de libros
+let elementoLibroPrincipio = libros.unshift('Crimen y castigo');
+console.log({elementoLibroPrincipio, libros});
+
+// Eliminar un elemento del array de libros
+let borrarElemento = libros.splice(7);
+console.log({borrarElemento, libros});
